@@ -1,7 +1,7 @@
 # TV Channel REST API
 
 This is TV Channel REST API application built on top of
-(restify)[http://mcavage.me/node-restify].
+[restify](http://mcavage.me/node-restify).
 
 ## Application use
 
