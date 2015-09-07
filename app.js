@@ -42,6 +42,9 @@ app.on('error', function(err) {
     }
 });
 
+// use query parser
+app.use(restify.queryParser());
+
 // allows authenticated cross domain requests
 preflightEnabler(app);
 

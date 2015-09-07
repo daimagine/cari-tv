@@ -5,13 +5,16 @@
   "main": "app.js",
   "scripts": {
     "dev": "node app.js --development",
-    "test": "node app.js --test & sleep 2 & node_modules/mocha/bin/mocha --timeout 5000 --reporter nyan --recursive test/"
+    "test": "node app.js --test & sleep 2 & node_modules/mocha/bin/mocha --timeout 15000 --reporter nyan --recursive test/"
   },
   "author": "Adi Kurniawan",
   "license": "MIT",
   "dependencies": {
+    "async": "^1.4.2",
+    "public-ip": "^1.0.3",
     "restify": "^4.0.0",
-    "se7ensky-restify-preflight": "^0.1.7"
+    "se7ensky-restify-preflight": "^0.1.7",
+    "unirest": "^0.4.2"
   },
   "devDependencies": {
     "chai": "^3.2.0",

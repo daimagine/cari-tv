@@ -1,6 +1,7 @@
 // test configuration
 config = require('../config/config').init('test');
 baseUrl = 'http://' + config.host + ':' + config.port;
+api_prefix = config.api.prefix;
 
 restify = require('restify');
 chai = require('chai');
@@ -14,6 +15,5 @@ client = restify.createJsonClient({
 });
 
 before(function(done) {
-    console.log('01: start test server');
     done();
 });
