@@ -17,7 +17,7 @@ Use following command to running or testing this app:
 `npm run test`
 
 
-## List of APIS:
+## List of API endpoints:
 
 ### Channels
 Get all available TV channels based on locations
@@ -28,6 +28,6 @@ Parameters:
 
 name | value | description
 --- | --- | ---
-l | `<latitude>,<logitude>` | Specify latitude and logitude of desired
-location. If this parameter is not exist, then location will be defined
-based on IP
+l | `<latitude>,<logitude>` | Specify latitude and logitude of desired location. If this parameter is not exist, then location will be defined based on IP
+
+
